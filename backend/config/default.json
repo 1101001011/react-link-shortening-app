@@ -1,0 +1,6 @@
+{
+	"serverPort": 5000,
+	"dbURI": "mongodb+srv://user:12345@link-shortening.aojyi.mongodb.net/?retryWrites=true&w=majority",
+	"jwtSecret": "link-shortening-jwt-secret",
+	"baseURL": "http://localhost:5000"
+}

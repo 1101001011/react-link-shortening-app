@@ -1,0 +1,19 @@
+.no__links {
+	@apply text-center text-zinc-500 mt-10;
+}
+
+.link__index {
+	@apply flex items-center justify-center grid-item;
+}
+
+.link__result {
+	@apply py-4 px-4 grid-item hover:bg-zinc-800 cursor-pointer;
+}
+
+.link__clicks {
+	@apply flex items-center justify-center grid-item;
+}
+
+.link__delete {
+	@apply flex items-center justify-center text-3xl grid-item hover:bg-zinc-800 cursor-pointer;
+}

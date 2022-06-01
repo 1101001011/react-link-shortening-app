@@ -1,0 +1,25 @@
+.wrapper {
+	@apply mt-16 flex justify-between;
+
+	.bg__image {
+		@apply absolute top-0 left-0 w-full h-screen -z-10 object-cover opacity-90;
+	}
+	.modal {
+		@apply max-w-xl mt-40 bg-white px-12 py-16 rounded-2xl shadow-xl;
+
+		&__title {
+			@apply mb-6 text-5xl font-black;
+		}
+
+		&__error {
+			@apply text-red-500 text-sm ml-4;
+		}
+	}
+	.art__author {
+		@apply absolute left-20 bottom-10 text-zinc-300 flex;
+
+		.author {
+			@apply underline hover:text-white;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+.navbar {
+	@apply text-white mb-24 border-b border-white;
+
+	.wrapper {
+		@apply max-w-5xl py-5 mx-auto flex justify-between items-center;
+	}
+}
